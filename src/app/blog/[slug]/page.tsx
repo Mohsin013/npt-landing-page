@@ -171,20 +171,13 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
         {/* Cover Image */}
         {post.coverImage && (
           <div className="max-w-6xl mx-auto px-2 mb-12">
-            <div className="aspect-[2/1] rounded-2xl overflow-hidden">
+            <div className="aspect-[2/1] relative rounded-2xl overflow-hidden">
               <OptimizedImage
                 src={post.coverImage}
                 alt={post.title}
                 fill
                 className="object-cover"
                 priority
-                style={{
-                  position: 'absolute',
-                  top: 0,
-                  left: 0,
-                  right: 0,
-                  bottom: 0,
-                }}
               />
             </div>
           </div>
@@ -286,7 +279,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                 <Link key={relatedPost.id} href={`/blog/${relatedPost.slug}`}>
                   <article className="group rounded-2xl overflow-hidden border border-border bg-card hover:border-primary/50 transition-all hover:shadow-lg">
                     {relatedPost.coverImage && (
-                      <div className="aspect-video relative overflow-hidden">
+                      <div className="aspect-video relative">
                         <OptimizedImage
                           src={relatedPost.coverImage}
                           alt={relatedPost.title}

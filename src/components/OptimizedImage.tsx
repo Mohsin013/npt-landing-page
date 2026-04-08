@@ -53,6 +53,7 @@ export default function OptimizedImage({
   aspectRatio,
   className = '',
   style,
+  fill,
   ...props
 }: OptimizedImageProps) {
   const [isLoading, setIsLoading] = useState(true);
@@ -65,6 +66,11 @@ export default function OptimizedImage({
         aspectRatio: `${aspectRatio}`,
       }
     : style;
+
+  // If fill is used, the wrapper should take full size of its parent
+  const wrapperClassName = fill
+    ? `absolute inset-0 w-full h-full ${className}`
+    : `relative overflow-hidden ${className}`;
 
   const handleLoad: ImageProps['onLoad'] = () => {
     setIsLoading(false);
@@ -87,13 +93,14 @@ export default function OptimizedImage({
   }
 
   return (
-    <div className={`relative overflow-hidden ${className}`} style={calculatedStyle}>
+    <div className={wrapperClassName} style={calculatedStyle}>
       {isLoading && showSkeleton && (
         <div className="absolute inset-0 bg-muted animate-pulse" />
       )}
 
       <Image
         {...props}
+        fill={fill}
         priority={priority}
         quality={blur ? 10 : 85}
         placeholder={blur ? 'blur' : 'empty'}

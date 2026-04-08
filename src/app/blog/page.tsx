@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import { Calendar, Clock, Tag, ArrowRight } from 'lucide-react';
+import { Calendar, Clock, Tag, ArrowRight, Star } from 'lucide-react';
 import { blogPosts, getFeaturedBlogPosts, getAllCategories, getAllTags } from '@/lib/blog-data';
 import OptimizedImage from '@/components/OptimizedImage';
 import { generateMetadata } from '@/components/SeoMeta';
@@ -70,7 +70,7 @@ export default function BlogPage() {
         <section className="py-16 bg-background">
           <div className="container mx-auto px-6">
             <div className="flex items-center gap-2 mb-8">
-              <span className="text-2xl">⭐</span>
+              <Star className="w-6 h-6 text-yellow-500 fill-yellow-500" />
               <h2 className="text-2xl font-bold">Featured Posts</h2>
             </div>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -142,7 +142,7 @@ function BlogCard({ post, featured = false }: { post: any; featured?: boolean })
     <Link href={`/blog/${post.slug}`}>
       <article className={`group rounded-2xl overflow-hidden border border-border bg-card hover:border-primary/50 transition-all duration-300 hover:shadow-lg ${featured ? 'md:col-span-2 lg:col-span-1' : ''}`}>
         {post.coverImage && (
-          <div className="aspect-video relative overflow-hidden">
+          <div className="aspect-video relative">
             <OptimizedImage
               src={post.coverImage}
               alt={post.title}
