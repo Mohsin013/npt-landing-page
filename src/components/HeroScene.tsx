@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef, useMemo, Component, ReactNode } from "react";
+import { useRef, useMemo, Component, ReactNode, memo } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { Float, MeshDistortMaterial } from "@react-three/drei";
 import * as THREE from "three";
@@ -161,7 +161,7 @@ const FloatingRings = ({ isMobile, isLowEndDevice }: { isMobile: boolean; isLowE
   );
 };
 
-const HeroScene = ({ onError }: { onError?: () => void }) => {
+const HeroScene = memo(({ onError }: { onError?: () => void }) => {
   const { isMobile, isLowEndDevice, prefersReducedMotion } = useDeviceDetection();
 
   // Completely skip 3D scene if user prefers reduced motion
@@ -170,13 +170,13 @@ const HeroScene = ({ onError }: { onError?: () => void }) => {
   }
 
   return (
-    <div className="absolute inset-0 z-0">
+    <div className="absolute inset-0 z-0 w-full h-full overflow-hidden">
       <ErrorBoundary fallback={null} onError={onError}>
         <Canvas
           camera={{ position: [0, 0, 7], fov: 45 }}
           gl={{ alpha: true, antialias: !isLowEndDevice, powerPreference: isLowEndDevice ? "low-power" : "high-performance" }}
-          style={{ background: "transparent" }}
-          dpr={isMobile ? 1 : (typeof window !== 'undefined' ? window.devicePixelRatio : 1)} // Lower pixel ratio on mobile, SSR-safe
+          style={{ background: "transparent", width: "100%", height: "100%" }}
+          dpr={isMobile ? 1 : Math.min(window.devicePixelRatio || 1, 2)}
         >
           <ambientLight intensity={0.5} />
           <pointLight position={[10, 10, 10]} intensity={1} color="#7C3AED" />
@@ -188,6 +188,8 @@ const HeroScene = ({ onError }: { onError?: () => void }) => {
       </ErrorBoundary>
     </div>
   );
-};
+});
+
+HeroScene.displayName = 'HeroScene';
 
 export default HeroScene;

@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef, useMemo } from "react";
+import { useRef, useMemo, memo } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { Float, MeshDistortMaterial, Sparkles, Stars } from "@react-three/drei";
 import * as THREE from "three";
@@ -217,7 +217,7 @@ const ParticleSwarm = ({ isMobile, isLowEndDevice }: { isMobile: boolean; isLowE
   );
 };
 
-const CTAScene = () => {
+const CTAScene = memo(() => {
   const { isMobile, isLowEndDevice, prefersReducedMotion } = useDeviceDetection();
 
   // Completely skip 3D scene on mobile or if user prefers reduced motion
@@ -242,12 +242,12 @@ const CTAScene = () => {
   ];
 
   return (
-    <div className="absolute inset-0 z-0 pointer-events-none">
+    <div className="absolute inset-0 z-0 pointer-events-none w-full h-full overflow-hidden">
       <Canvas
         camera={{ position: [0, 0, 8], fov: 50 }}
         gl={{ alpha: true, antialias: !isLowEndDevice, powerPreference: isLowEndDevice ? "low-power" : "high-performance" }}
-        style={{ background: "transparent" }}
-        dpr={isMobile ? 1 : (typeof window !== 'undefined' ? window.devicePixelRatio : 1)}
+        style={{ background: "transparent", width: "100%", height: "100%" }}
+        dpr={isMobile ? 1 : Math.min(window.devicePixelRatio || 1, 2)}
       >
         <ambientLight intensity={0.4} />
         <pointLight position={[8, 8, 8]} intensity={0.8} color="#7C3AED" />
@@ -270,6 +270,8 @@ const CTAScene = () => {
       </Canvas>
     </div>
   );
-};
+});
+
+CTAScene.displayName = 'CTAScene';
 
 export default CTAScene;

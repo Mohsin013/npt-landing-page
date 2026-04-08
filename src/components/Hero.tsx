@@ -44,7 +44,7 @@ const Hero = () => {
   }, [text, deleting, roleIndex, roles]);
 
   return (
-    <section className="relative min-h-screen flex items-center overflow-hidden pt-20">
+    <section className="relative min-h-screen flex items-center overflow-hidden pt-20 w-full">
       {/* 3D Scene Background - Optimized lazy loading */}
       {!sceneError && (
         <Lazy3DScene

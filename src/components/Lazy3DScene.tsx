@@ -75,9 +75,7 @@ function canHandle3D(): boolean {
  */
 function LoadingSkeleton() {
   return (
-    <div className="absolute inset-0 flex items-center justify-center bg-muted/20 animate-pulse">
-      <div className="w-32 h-32 rounded-full bg-primary/20" />
-    </div>
+    <div className="absolute inset-0 flex items-center justify-center bg-transparent" />
   );
 }
 
