@@ -84,7 +84,7 @@ const WhyChooseUs = () => {
                 </svg>
               ))}
             </div>
-            <span className="text-sm font-medium text-foreground">50+ Founders Trust Us</span>
+            <span className="text-sm font-medium text-foreground">5+ Founders Trust Us</span>
           </div>
         </div>
       </div>

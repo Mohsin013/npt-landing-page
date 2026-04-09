@@ -156,7 +156,7 @@ export default function HomePage() {
         <TimelineSection />
         <Services />
         <WhyChooseUs />
-        <Portfolio />
+        {/* <Portfolio /> */}
         <Testimonials />
         <FAQSection />
         <CTASection />
