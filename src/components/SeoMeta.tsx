@@ -94,9 +94,10 @@ export const SITE_CONFIG = {
   url: 'https://northpeaktechnologies.com',
   ogImage: '/company_logo.png',
   links: {
+    facebook: 'https://www.facebook.com/profile.php?id=61576376895470',
     twitter: 'https://twitter.com/northpeaktech',
     instagram: 'https://instagram.com/northpeaktechnologies',
-    linkedin: 'https://www.linkedin.com/company/northpeaks-teachnologies',
+    linkedin: 'https://www.linkedin.com/company/northpeak-technologies',
   },
   contact: {
     phone: '+91-7006009596',

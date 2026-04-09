@@ -44,17 +44,17 @@ const serviceDetails = [
 export const metadata: Metadata = {
   title: "Our Services",
   description:
-    "Explore our comprehensive software development services: MVP development, web applications, AI solutions, cloud infrastructure, quality assurance, and CMS integration.",
+    "Expert software development services: MVP, web apps, AI solutions, cloud infrastructure, QA, and CMS integration for startups and businesses.",
   openGraph: {
-    title: "Our Services | NorthPeak Technologies",
+    title: "Our Services | NorthPeak",
     description:
-      "Explore our comprehensive software development services: MVP development, web applications, AI solutions, cloud infrastructure, quality assurance, and CMS integration.",
+      "Expert software development services: MVP, web apps, AI solutions, cloud infrastructure, QA, and CMS integration.",
     url: "https://northpeaktechnologies.com/services",
   },
   twitter: {
-    title: "Our Services | NorthPeak Technologies",
+    title: "Our Services | NorthPeak",
     description:
-      "Explore our comprehensive software development services: MVP development, web applications, AI solutions, cloud infrastructure, quality assurance, and CMS integration.",
+      "Expert software development services: MVP, web apps, AI solutions, cloud infrastructure, QA, and CMS integration.",
   },
 };
 

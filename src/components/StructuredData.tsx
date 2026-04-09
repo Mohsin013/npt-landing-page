@@ -55,7 +55,7 @@ export function OrganizationSchema() {
     },
     sameAs: [
       "https://instagram.com/northpeaktechnologies",
-      "https://www.linkedin.com/company/northpeaks-teachnologies",
+      "https://www.linkedin.com/company/northpeak-technologies",
       "https://twitter.com/northpeaktech",
     ],
     socialMediaPosting: [

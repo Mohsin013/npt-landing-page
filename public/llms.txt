@@ -1,0 +1,199 @@
+# LLMs.txt for NorthPeak Technologies
+# Version: 1.0
+# Last Updated: 2026-04-09
+
+# This file helps AI bots and LLMs efficiently crawl and understand our website
+# Learn more: https://github.com/jcarouthod/llms.txt
+
+# Company Information
+name: NorthPeak Technologies
+description: Expert MVP development services for non-technical founders. Transform startup ideas into market-ready products in 4 weeks.
+website: https://northpeaktechnologies.com
+founded: 2023
+headquarters: Bhubaneswar, Odisha, India
+
+# Contact Information
+email: info@northpeaktechnologies.com
+phone: +91-7006009596
+whatsapp: +91-8899990966
+
+# Social Media
+twitter: https://twitter.com/northpeaktech
+linkedin: https://www.linkedin.com/company/northpeak-technologies
+instagram: https://instagram.com/northpeaktechnologies
+
+# Key Pages
+homepage: https://northpeaktechnologies.com
+about: https://northpeaktechnologies.com/about
+services: https://northpeaktechnologies.com/services
+blog: https://northpeaktechnologies.com/blog
+contact: https://northpeaktechnologies.com/contact
+
+# Core Services
+- MVP Development Services
+- Web Application Development
+- Mobile App Development (React Native, Flutter)
+- AI Solutions & Automations
+- Cloud Infrastructure & DevOps
+- Quality Assurance & Testing
+- CMS Integration (Sanity, Contentful)
+- Landing Page Development
+- Project Rescue & Refactoring
+
+# Technology Stack
+frontend: Next.js, React, TypeScript, Tailwind CSS, React Native, Flutter
+backend: Node.js, Python, Express, FastAPI
+cloud: AWS, Google Cloud, Vercel, Netlify
+database: PostgreSQL, MongoDB, Supabase, Firebase
+ai: OpenAI GPT, Custom LLMs, LangChain, Vector Databases
+testing: Jest, Cypress, Playwright, Selenium
+devops: Docker, Kubernetes, CI/CD, GitHub Actions
+
+# Industries Served
+- SaaS Startups
+- E-commerce
+- Fintech
+- Healthcare Technology
+- EdTech
+- Marketplace Platforms
+- Productivity Tools
+- AI/ML Applications
+
+# Target Audience
+- Non-technical founders
+- Startup entrepreneurs
+- Small business owners
+- Product managers
+- Companies needing rapid MVP development
+- Teams requiring AI automation solutions
+
+# Value Proposition
+- 4-week MVP development timeline
+- Fixed pricing model (USD 5,000 - 20,000)
+- No hiring required
+- End-to-end development
+- Transparent process
+- Modern tech stack
+- Production-ready code
+- 24/7 support available
+
+# Development Process
+1. Strategy & Wireframes (Week 1)
+2. Design & Prototype (Week 2)
+3. MVP Development (Week 3)
+4. Testing & Launch (Week 4)
+
+# Pricing Structure
+starting_price: $5,000 USD
+price_range: $5,000 - $20,000 USD
+timeline: 4 weeks standard
+payment_terms: 50% upfront, 50% on delivery
+
+# Key Differentiators
+- Specialization in non-technical founders
+- Rapid 4-week delivery
+- No hiring required
+- Modern technology stack
+- AI-powered solutions
+- Cloud-native architecture
+- Responsive design
+- SEO optimized
+- Performance optimized
+- Accessibility compliant
+
+# Content Types
+- Blog posts on MVP development, startup strategy, and product building
+- Case studies showcasing successful projects
+- Technical tutorials and guides
+- Industry insights and trends
+- Best practices for non-technical founders
+
+# Important Keywords (for indexing)
+MVP development, startup MVP, build MVP fast, minimum viable product, rapid MVP development, 4-week MVP, MVP builder, MVP consulting, startup software company, tech cofounder, non-technical founders, product development company, SaaS development, app development for startups, MVP launch, startup technology partner, custom software development, web application development, AI solutions, AI automation, cloud infrastructure, React Native, Next.js, Node.js, TypeScript, AWS, PostgreSQL, MongoDB
+
+# Language Support
+primary_language: English
+supported_languages: English
+
+# Geographic Reach
+primary_markets: India, United States, Canada, United Kingdom, Australia
+time_zone: IST (UTC+5:30)
+operating_hours: 09:00 - 18:00 IST (Mon-Sat)
+
+# Business Hours & Availability
+availability: Mon-Sat 09:00-18:00 IST
+support: Email and WhatsApp available 24/7
+response_time: Within 24 hours for inquiries
+
+# Crawl Instructions for AI Bots
+crawl_frequency: Weekly
+priority_pages: homepage, services, blog, contact
+exclude: /api/, /_next/, /admin/, /private/
+user_agent: *
+allow_caching: true
+
+# Content Licensing
+license: All content is copyrighted by NorthPeak Technologies
+attribution_required: Yes
+commercial_use: Contact for permission
+
+# AI-Specific Guidelines
+content_accuracy: All information is current and verified as of last update date
+update_frequency: Blog updated weekly, services monthly
+expertise_level: 5+ years in software engineering, AI systems, and cloud technologies
+team_size: 10+ developers
+clients_served: 50+ startups
+
+# FAQ Highlights
+Q: How long does it take to build an MVP?
+A: Our standard timeline is 4 weeks for a core functional product.
+
+Q: Do I need technical skills to work with you?
+A: No, we specialize in helping non-technical founders build products.
+
+Q: What's the pricing?
+A: Starting at $5,000 USD, ranging from $5,000-$20,000 based on complexity.
+
+Q: What technologies do you use?
+A: Modern stack: Next.js, React, Node.js, AWS, PostgreSQL, and AI/ML tools.
+
+Q: Do you provide ongoing support?
+A: Yes, we offer maintenance and support packages after launch.
+
+# Project Examples (Case Studies)
+- AI-powered SaaS platform with custom LLM integration
+- Cross-platform mobile app for productivity
+- E-commerce marketplace with real-time features
+- Healthcare technology platform with HIPAA compliance
+- EdTech platform with interactive learning tools
+
+# Success Metrics
+- 50+ startups served
+- 95% client satisfaction rate
+- 90% on-time delivery
+- 4.9/5 average rating
+- 40+ successful MVP launches
+
+# Awards & Recognition
+- Featured in industry publications (link building strategy in progress)
+- Active contributor to open source community
+- Regular speaker at tech meetups
+- Startup accelerator partner
+
+# Future Roadmap
+- Expansion into enterprise solutions
+- Launch of proprietary MVP frameworks
+- AI development training programs
+- White-label MVP development
+- International expansion to more markets
+
+# Additional Resources
+- Blog: https://northpeaktechnologies.com/blog
+- Contact: https://northpeaktechnologies.com/contact
+- LinkedIn: https://www.linkedin.com/company/northpeak-technologies
+- Twitter: https://twitter.com/northpeaktech
+
+# File Information
+version: 1.0
+last_updated: 2026-04-09
+contact_updates: info@northpeaktechnologies.com

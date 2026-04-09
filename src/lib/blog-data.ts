@@ -321,8 +321,8 @@ At NorthPeak Technologies, we specialize in helping non-technical founders build
     coverImage: "/assets/mvp-blog.png",
     featured: true,
     seo: {
-      title: "How to Build MVP Without Technical Skills | Complete 2024 Guide",
-      description: "Learn how non-technical founders can build a market-ready MVP in just 4 weeks. Complete guide with step-by-step process, tools, and real success stories.",
+      title: "How to Build MVP Without Technical Skills",
+      description: "Learn how non-technical founders build a market-ready MVP in 4 weeks. Complete guide with step-by-step process, tools, and success stories.",
       keywords: [
         "build MVP without coding",
         "non-technical founders",

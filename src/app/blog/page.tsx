@@ -7,8 +7,8 @@ import { generateMetadata } from '@/components/SeoMeta';
 import { BreadcrumbSchema } from '@/components/StructuredData';
 
 export const metadata: Metadata = generateMetadata({
-  title: 'Blog | MVP Development Insights & Startup Resources',
-  description: 'Expert insights on MVP development, startup strategies, and product building. Learn how to build your startup idea without technical skills from NorthPeak Technologies experts.',
+  title: 'Blog | MVP Development Insights',
+  description: 'Expert insights on MVP development, startup strategies, and product building. Learn to build your startup idea without technical skills.',
   keywords: [
     'MVP development blog',
     'startup blog',

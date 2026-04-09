@@ -4,17 +4,17 @@ import ContactForm from "./contact-form";
 export const metadata: Metadata = {
   title: "Contact Us",
   description:
-    "Get in touch with NorthPeak Technologies. Tell us about your project and we'll help you build it. Call us at +91-7006009596 or email info@northpeaktechnologies.com",
+    "Contact NorthPeak to build your project. Call +91-7006009596 or email info@northpeaktechnologies.com. We help build your vision.",
   openGraph: {
-    title: "Contact Us | NorthPeak Technologies",
+    title: "Contact Us | NorthPeak",
     description:
-      "Get in touch with NorthPeak Technologies. Tell us about your project and we'll help you build it.",
+      "Contact NorthPeak to build your project. Call +91-7006009596 or email info@northpeaktechnologies.com.",
     url: "https://northpeaktechnologies.com/contact",
   },
   twitter: {
-    title: "Contact Us | NorthPeak Technologies",
+    title: "Contact Us | NorthPeak",
     description:
-      "Get in touch with NorthPeak Technologies. Tell us about your project and we'll help you build it.",
+      "Contact NorthPeak to build your project. Call +91-7006009596 or email info@northpeaktechnologies.com.",
   },
 };
 

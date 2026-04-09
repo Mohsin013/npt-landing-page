@@ -15,11 +15,11 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "NorthPeak Technologies",
-    template: "%s | NorthPeak Technologies",
+    default: "NorthPeak | MVP Development",
+    template: "%s | NorthPeak",
   },
   description:
-    "Transform your startup idea into a market-ready product in just 4 weeks. NorthPeak Technologies provides expert MVP development services, custom software, AI solutions, and cloud infrastructure for non-technical founders. Build MVP fast with our proven process.",
+    "Transform your startup idea into a market-ready product in 4 weeks. Expert MVP development for non-technical founders with custom software and AI solutions.",
   icons: {
     icon: "/company_logo.png",
     apple: "/company_logo.png",
@@ -70,7 +70,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://northpeaktechnologies.com",
-    title: "NorthPeak Technologies | MVP Development Services & Startup Software Solutions",
+    title: "NorthPeak | MVP Development Services",
     description:
       "Transform your startup idea into a market-ready product in just 4 weeks. Expert MVP development services, custom software, AI solutions, and cloud infrastructure for non-technical founders. Build MVP fast with our proven process.",
     siteName: "NorthPeak Technologies",
@@ -87,7 +87,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@northpeaktech",
     creator: "@northpeaktech",
-    title: "NorthPeak Technologies | MVP Development Services & Startup Software Solutions",
+    title: "NorthPeak | MVP Development Services",
     description:
       "Transform your startup idea into a market-ready product in just 4 weeks. Expert MVP development services, custom software, AI solutions, and cloud infrastructure for non-technical founders. Build MVP fast with our proven process.",
     images: [
@@ -142,10 +142,10 @@ export default function RootLayout({
         <link rel="dns-prefetch" href="https://linkedin.com" />
         <link rel="dns-prefetch" href="https://twitter.com" />
 
-        {/* Performance Monitoring - Uncomment and add your analytics ID */}
-        {/* <script
+        {/* Google Analytics */}
+        <script
           async
-          src={`https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID`}
+          src="https://www.googletagmanager.com/gtag/js?id=G-9FMHVTVRCK"
         ></script>
         <script
           dangerouslySetInnerHTML={{
@@ -153,10 +153,10 @@ export default function RootLayout({
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
-              gtag('config', 'GA_MEASUREMENT_ID');
+              gtag('config', 'G-9FMHVTVRCK');
             `,
           }}
-        /> */}
+        />
       </head>
       <body className={`${inter.variable} font-sans antialiased`} suppressHydrationWarning>
         <Providers>

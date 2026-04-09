@@ -46,7 +46,7 @@ Your website now includes comprehensive JSON-LD structured data:
   },
   "sameAs": [
     "https://instagram.com/northpeaktechnologies",
-    "https://www.linkedin.com/company/northpeaks-teachnologies",
+    "https://www.linkedin.com/company/northpeak-technologies",
     "https://twitter.com/northpeaktech"
   ],
   "hasOfferCatalog": {

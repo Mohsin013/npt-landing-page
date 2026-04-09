@@ -21,9 +21,9 @@ import {
 } from "@/components/StructuredData";
 
 export const metadata: Metadata = {
-  title: "NorthPeak Technologies | MVP Development Services & Startup Software Solutions",
+  title: "NorthPeak | MVP Development Services",
   description:
-    "Expert MVP development services to transform your startup idea into a market-ready product in just 4 weeks. NorthPeak Technologies helps non-technical founders build MVP fast with custom software, AI solutions, and cloud infrastructure. Get startup MVP consulting and rapid development today.",
+    "Transform your startup idea into a market-ready product in 4 weeks. Expert MVP development for non-technical founders with custom software and AI solutions.",
   keywords: [
     "MVP development services",
     "startup MVP",
@@ -43,9 +43,9 @@ export const metadata: Metadata = {
     "startup technology partner",
   ],
   openGraph: {
-    title: "MVP Development Services | Build Your Startup MVP Fast | NorthPeak Technologies",
+    title: "MVP Development Services | Build Your Startup MVP Fast | NorthPeak",
     description:
-      "Transform your startup idea into a market-ready product in just 4 weeks. Expert MVP development services, custom software, AI solutions, and cloud infrastructure for non-technical founders. Build MVP fast with our proven process.",
+      "Transform your startup idea into a market-ready product in 4 weeks. Expert MVP development for non-technical founders with custom software and AI solutions.",
     url: "https://northpeaktechnologies.com",
     type: "website",
     siteName: "NorthPeak Technologies",
@@ -62,9 +62,9 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@northpeaktech",
     creator: "@northpeaktech",
-    title: "MVP Development Services | Build Your Startup MVP Fast | NorthPeak Technologies",
+    title: "MVP Development Services | Build Your Startup MVP Fast | NorthPeak",
     description:
-      "Transform your startup idea into a market-ready product in just 4 weeks. Expert MVP development services, custom software, AI solutions, and cloud infrastructure for non-technical founders. Build MVP fast with our proven process.",
+      "Transform your startup idea into a market-ready product in 4 weeks. Expert MVP development for non-technical founders with custom software and AI solutions.",
     images: [
       {
         url: "/company_logo.png",

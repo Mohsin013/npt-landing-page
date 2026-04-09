@@ -4,17 +4,17 @@ import Image from "next/image";
 export const metadata: Metadata = {
   title: "About Us",
   description:
-    "Meet the founders of NorthPeak Technologies. With 5+ years of experience in software engineering, AI systems, and cloud technologies, we're here to build your vision.",
+    "Meet NorthPeak founders. 5+ years in software engineering, AI systems, and cloud technologies. We build your startup vision.",
   openGraph: {
-    title: "About Us | NorthPeak Technologies",
+    title: "About Us | NorthPeak",
     description:
-      "Meet the founders of NorthPeak Technologies. With 5+ years of experience in software engineering, AI systems, and cloud technologies, we're here to build your vision.",
+      "Meet NorthPeak founders. 5+ years in software engineering, AI systems, and cloud technologies. We build your startup vision.",
     url: "https://northpeaktechnologies.com/about",
   },
   twitter: {
-    title: "About Us | NorthPeak Technologies",
+    title: "About Us | NorthPeak",
     description:
-      "Meet the founders of NorthPeak Technologies. With 5+ years of experience in software engineering, AI systems, and cloud technologies, we're here to build your vision.",
+      "Meet NorthPeak founders. 5+ years in software engineering, AI systems, and cloud technologies. We build your startup vision.",
   },
 };
 

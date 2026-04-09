@@ -1,12 +1,12 @@
 import Link from "next/link";
 import Image from "next/image";
+import { ExternalLink, Globe, Share2 } from "lucide-react";
 
 const Footer = () => {
   return (
     <footer className="border-t border-border py-16">
       <div className="container mx-auto px-6">
         {/* Logo section */}
-
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-10">
           <section>
             <h3 className="font-bold text-foreground mb-4">Company</h3>
@@ -51,10 +51,15 @@ const Footer = () => {
             <h3 className="font-bold text-foreground mb-4">Resources</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <p className="text-muted-foreground">Blog (coming soon)</p>
+                <Link
+                  href="/blog"
+                  className="block text-muted-foreground hover:text-foreground transition-colors"
+                >
+                  Blog
+                </Link>
               </li>
               <li>
-                <p className="text-muted-foreground">Case Studies</p>
+                <p className="text-muted-foreground">Case Studies (coming soon)</p>
               </li>
             </ul>
           </section>
@@ -87,24 +92,41 @@ const Footer = () => {
               <ul className="space-y-2 text-sm">
                 <li>
                   <a
-                    href="https://instagram.com/northpeaktechnologies"
+                    href="https://www.facebook.com/profile.php?id=61576376895470"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="block text-muted-foreground hover:text-foreground transition-colors"
-                    aria-label="Follow us on Instagram"
+                    className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors"
+                    aria-label="Follow us on Facebook"
                   >
-                    Instagram
+                    <Globe className="h-4 w-4" />
+                    <span>Facebook</span>
+                    <ExternalLink className="h-3 w-3 opacity-50" />
                   </a>
                 </li>
                 <li>
                   <a
-                    href="https://www.linkedin.com/company/northpeaks-teachnologies"
+                    href="https://instagram.com/northpeaktechnologies"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="block text-muted-foreground hover:text-foreground transition-colors"
+                    className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors"
+                    aria-label="Follow us on Instagram"
+                  >
+                    <Globe className="h-4 w-4" />
+                    <span>Instagram</span>
+                    <ExternalLink className="h-3 w-3 opacity-50" />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/company/northpeak-technologies"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors"
                     aria-label="Follow us on LinkedIn"
                   >
-                    LinkedIn
+                    <Share2 className="h-4 w-4" />
+                    <span>LinkedIn</span>
+                    <ExternalLink className="h-3 w-3 opacity-50" />
                   </a>
                 </li>
               </ul>
